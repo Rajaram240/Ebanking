@@ -1,0 +1,41 @@
+2021-07-26 18:48:14,014 - ebanking -INFO - URL is opened
+2021-07-26 18:48:14,320 - ebanking -INFO - Entered username
+2021-07-26 18:48:14,460 - ebanking -INFO - Entered password
+2021-07-26 18:48:16,632 - ebanking -INFO - Login test passed
+2021-07-26 19:05:56,464 - ebanking -INFO - URL is opened
+2021-07-26 19:05:56,785 - ebanking -INFO - Entered username
+2021-07-26 19:05:56,931 - ebanking -INFO - Entered password
+2021-07-26 19:05:59,850 - ebanking -INFO - Login test passed
+2021-07-26 20:22:54,688 - ebanking -INFO - URL is opened
+2021-07-26 20:22:56,126 - ebanking -INFO - Entered username
+2021-07-26 20:22:56,485 - ebanking -INFO - Entered password
+2021-07-26 20:22:58,757 - ebanking -INFO - Login test passed
+2021-07-26 20:24:51,057 - ebanking -INFO - URL is opened
+2021-07-26 20:24:51,408 - ebanking -INFO - Entered username
+2021-07-26 20:24:51,547 - ebanking -INFO - Entered password
+2021-07-26 20:26:42,187 - ebanking -INFO - URL is opened
+2021-07-26 20:26:42,400 - ebanking -INFO - Entered username
+2021-07-26 20:26:42,608 - ebanking -INFO - Entered password
+2021-07-26 20:47:11,658 - ebanking -INFO - user name provided
+2021-07-26 20:47:11,814 - ebanking -INFO - password provided
+2021-07-26 20:47:17,162 - ebanking -INFO - user name provided
+2021-07-26 20:47:17,322 - ebanking -INFO - password provided
+2021-07-26 20:47:23,361 - ebanking -INFO - user name provided
+2021-07-26 20:47:23,460 - ebanking -INFO - password provided
+2021-07-26 20:47:28,741 - ebanking -INFO - Login passed
+2021-07-26 20:47:34,813 - ebanking -INFO - user name provided
+2021-07-26 20:47:34,911 - ebanking -INFO - password provided
+2021-07-26 20:47:40,575 - ebanking -INFO - user name provided
+2021-07-26 20:47:40,687 - ebanking -INFO - password provided
+2021-07-26 21:08:55,552 - ebanking -INFO - User name is provided
+2021-07-26 21:08:55,764 - ebanking -INFO - Passsword is provided
+2021-07-26 21:09:02,371 - ebanking -INFO - providing customer details....
+2021-07-26 21:09:36,951 - ebanking -INFO - validation started....
+2021-07-26 21:09:37,013 - ebanking -INFO - test case passed....
+2021-07-26 22:57:46,229 - ebanking -INFO - user name provided
+2021-07-26 22:57:46,370 - ebanking -INFO - password provided
+2021-07-26 22:57:54,401 - ebanking -INFO - user name provided
+2021-07-26 22:57:54,502 - ebanking -INFO - password provided
+2021-07-26 22:58:00,220 - ebanking -INFO - Login passed
+2021-07-26 22:58:06,924 - ebanking -INFO - user name provided
+2021-07-26 22:58:07,024 - ebanking -INFO - password provided
