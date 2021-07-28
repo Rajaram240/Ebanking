@@ -14,8 +14,9 @@
 		<!--	<class name="com.testcases.TC_LoginTest_001" />-->
 			
 			<!--   <class name="com.testcases.TC_LoginDDT_002" />-->
-			 <class name="com.testcases.TC_AddCustomerTest_003" />
-
+			<!-- <class name="com.testcases.TC_AddCustomerTest_003" />
+			<class name="com.testcases.TC_EditCustomerTest_004" /> -->
+			<class name="com.testcases.TC_AddEditTest_005"/>
 		</classes>
 
 	</test>

@@ -8,10 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pageobjects.AddCustomerPage;
+import com.pageobjects.EditCustomer;
 import com.pageobjects.LoginPage;
-
-public class TC_AddCustomerTest_003 extends BaseClass
-{
+public class TC_AddEditTest_005 extends BaseClass {
 
 	@Test
 	public void addNewCustomer() throws InterruptedException, IOException
@@ -66,7 +65,26 @@ public class TC_AddCustomerTest_003 extends BaseClass
 			Assert.assertTrue(false);
 		}
 addcust.custid();
-	}
 	
+	EditCustomer editcust=new EditCustomer(driver);
 	
+	editcust.clickEditCustomer();
+	
+	logger.info("providing customer Id....");
+	
+	editcust.custId(AddCustomerPage.valueIneed);
+	//editcust.custId("39111");
+	editcust.custsubmit();
+	logger.info("start editing....");
+	
+	Thread.sleep(3000);
+	
+	editcust.custpinId("560011");
+	
+	logger.info("pincode edited");
+	Thread.sleep(3000);
+
+	editcust.custeditsubmit();
+	logger.info("edited....");
+}
 }

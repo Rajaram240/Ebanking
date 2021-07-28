@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="5" name="BankingApp Test(failed)">
     <classes>
-      <class name="com.testcases.TC_LoginDDT_002">
+      <class name="com.testcases.TC_AddEditTest_005">
         <methods>
+          <include name="addNewCustomer"/>
           <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="0 1 3 4"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.testcases.TC_LoginDDT_002 -->
+      </class> <!-- com.testcases.TC_AddEditTest_005 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [SeleniumBankingProject] -->

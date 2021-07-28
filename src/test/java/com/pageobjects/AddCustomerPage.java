@@ -1,5 +1,8 @@
 package com.pageobjects;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -8,7 +11,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class AddCustomerPage {
-
+	public static String valueIneed;
 	WebDriver ldriver;
 	
 	public AddCustomerPage(WebDriver rdriver) {
@@ -63,6 +66,9 @@ public class AddCustomerPage {
 	@CacheLookup
 	@FindBy(how = How.NAME, using = "sub")
 	WebElement btnSubmit;
+	@FindBy(how = How.XPATH, using ="/html[1]/body[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[4]/td[2]")
+	@CacheLookup
+	WebElement getCustomerID;
 	
 	public void clickAddNewCustomer() {
 		lnkAddNewCustomer.click();
@@ -116,7 +122,20 @@ public class AddCustomerPage {
 	public void custsubmit() {
 		btnSubmit.click();
 	}
-	
+	public void custid() {
+		WebElement cellIneed = getCustomerID;
+	    valueIneed = cellIneed.getText();
+	    System.out.println(valueIneed);
+	    
+//		List<WebElement> headervalues=getCustomerID;
+//		System.out.println("Total headers found: "+headervalues.size());
+//		for (int i = 0; i < headervalues.size(); i++)
+//
+//		{
+//
+//		System.out.println(headervalues.get(i).getText());
+//		}
+	}
 	
 	
 }
