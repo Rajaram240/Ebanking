@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumBankingProject" duration-ms="60689" started-at="2021-07-28T06:30:31Z" finished-at="2021-07-28T06:31:31Z">
+  <suite name="SeleniumBankingProject" duration-ms="40639" started-at="2021-08-04T06:20:40Z" finished-at="2021-08-04T06:21:21Z">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="60689" started-at="2021-07-28T06:30:31Z" finished-at="2021-07-28T06:31:31Z">
+    <test name="BankingApp Test" duration-ms="40639" started-at="2021-08-04T06:20:40Z" finished-at="2021-08-04T06:21:21Z">
       <class name="com.testcases.TC_AddEditTest_005">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_AddEditTest_005@67784306]" name="setup" is-config="true" duration-ms="19482" started-at="2021-07-28T06:30:31Z" finished-at="2021-07-28T06:30:51Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_AddEditTest_005@67784306]" name="setup" is-config="true" duration-ms="7957" started-at="2021-08-04T06:20:41Z" finished-at="2021-08-04T06:20:49Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.testcases.TC_AddEditTest_005@67784306]" name="addNewCustomer" duration-ms="39022" started-at="2021-07-28T06:30:51Z" finished-at="2021-07-28T06:31:30Z">
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.testcases.TC_AddEditTest_005@67784306]" name="addNewCustomer" duration-ms="31221" started-at="2021-08-04T06:20:49Z" finished-at="2021-08-04T06:21:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_AddEditTest_005@67784306]" name="tearDown" is-config="true" duration-ms="1348" started-at="2021-07-28T06:31:30Z" finished-at="2021-07-28T06:31:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_AddEditTest_005@67784306]" name="tearDown" is-config="true" duration-ms="865" started-at="2021-08-04T06:21:20Z" finished-at="2021-08-04T06:21:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -3,11 +3,13 @@ package com.testcases;
 import java.io.IOException;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pageobjects.AddCustomerPage;
+import com.pageobjects.DeletePage;
 import com.pageobjects.EditCustomer;
 import com.pageobjects.LoginPage;
 public class TC_AddEditTest_005 extends BaseClass {
@@ -86,5 +88,24 @@ addcust.custid();
 
 	editcust.custeditsubmit();
 	logger.info("edited....");
+	
+	DeletePage dt=new DeletePage(driver);
+			dt.clickDelCustomer();
+	logger.info("delete button clicked");
+	dt.custId(AddCustomerPage.valueIneed);
+	logger.info("providing customer Id....");
+	dt.custDelsubmit();
+	logger.info("alert box apperas....");
+	
+	driver.switchTo().alert().accept();
+	logger.info("one more alert box apperas....");
+	driver.switchTo().alert().accept();
+	logger.info("deleted....");
+	
+	
+	driver.findElement(By.xpath("//a[contains(text(),'Log out')]")).click();
+		
+
+	
 }
 }
